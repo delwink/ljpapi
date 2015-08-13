@@ -3,6 +3,18 @@ Libre Java Pathfinder API
 
 A Java class library for storing Pathfinder RPG data.
 
+Build
+-----
+
+The NetBeans IDE is used in developing this library, which generates `ant`
+build scripts by default. You can either load the project in NetBeans yourself,
+or you can build with `ant` like so:
+
+    $ ant clean jar
+
+The environment variable `JAVA_HOME` needs to point to a valid JDK for the
+command-line build to work.
+
 Hacking
 -------
 
