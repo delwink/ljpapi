@@ -1,0 +1,22 @@
+Libre Java Pathfinder API
+=========================
+
+A Java class library for storing Pathfinder RPG data.
+
+Hacking
+-------
+
+The code should match the style of existing source, following official Java
+brace and indentation style. Try to keep lines below 80 columns, but exceptions
+can be made due to the verbose nature of Java as a language.
+
+Submissions can be made via GitHub's pull request system or [e-mail][1].
+
+License
+-------
+
+ljpapi is free software: you are free to use, copy, modify, and redistribute it
+under the terms of version 3 of the GNU Affero General Public License. See
+[COPYING](COPYING) for more details.
+
+[1]: mailto:contribute@delwink.com
