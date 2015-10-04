@@ -43,21 +43,31 @@ public class Character {
     public void setAlignment(Alignment alignment) {
         this.alignment = alignment;
     }
-
-    public ArrayList<CombatClass> getClasses() {
-        return classes;
+    
+    public void addClass(CombatClass combatClass) {
+        classes.add(combatClass);
+    }
+    
+    public void removeClass(CombatClass combatClass) {
+        classes.remove(combatClass);
+    }
+    
+    public CombatClass[] getClasses() {
+        CombatClass[] c = classes.toArray(new CombatClass[classes.size()]);
+        return c;
+    }
+    
+    public void addLanguage(String language) {
+        languages.add(language);
+    }
+    
+    public void removeLanguage(String language) {
+        languages.remove(language);
     }
 
-    public void setClasses(ArrayList<CombatClass> classes) {
-        this.classes = classes;
-    }
-
-    public ArrayList<String> getLanguages() {
-        return languages;
-    }
-
-    public void setLanguages(ArrayList<String> languages) {
-        this.languages = languages;
+    public String[] getLanguages() {
+        String[] l = languages.toArray(new String[languages.size()]);
+        return l;
     }
 
     public ExperienceRate getExperienceRate() {
